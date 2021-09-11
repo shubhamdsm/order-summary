@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+    cursor: pointer;
+}
+h4{
+    font-weight: 900;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.container>img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.summary {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.summary > small{
+    color: grey;
+    padding: 20px 40px;
+}
+.annual-plan{
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  
+
+}
+.pack{
+    align-items: center;
+    padding-left: 10px;
+}
+.plan {
+    font-weight: 900;
+    font-size: 11px;
+    
+}
+.price{
+    font-size: 11px;
+    color: grey;
+}
+.annual-plan > a{
+    color: hsl(223, 47%, 23%);
+    padding-left: 30px;
+    font-size: 11px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.btn-primary{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 5px 50px;
+    border-radius: 5px;
+    border: 1px solid hsl(245, 75%, 52%);
+    font-size: 11px;
+    box-shadow: 5px 10px hsl(225, 100%, 98%);
+}
+.btn-secondary{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 20px;
+    background-color: white;
+    border: 0;
+    color: grey;
+    font-size: 11px;
+
+}
